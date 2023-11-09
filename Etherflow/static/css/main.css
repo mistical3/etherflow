@@ -1,0 +1,79 @@
+.darkness {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.2;
+    z-index: 3;
+
+    animation-name: darkness_animation;
+    animation-duration: 2s;
+}
+
+.UserActionButton {
+    padding: 8px 16px;
+    background-color: #663ef2;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    z-index: 100;
+    /*position: absolute;*/
+}
+
+.hidden {
+    display: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a082ff;
+}
+
+.modal-content {
+    background-color: #a082ff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #a082ff;
+    width: 80%;
+    max-width: 400px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Стили для формы редактирования профиля */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
